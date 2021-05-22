@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sample</title>
+		<script src="my.js"></script>
+		<style>
+			#para{
+			height:100px;
+			width:100px;
+			background:red;
+			position:relative;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<script>
+			
+			$(document).ready(function(){
+				
+				$("button").click(function(){
+					
+					$("#para").animate({"width":"200px","borderRadius":"30px"});
+					$("#para").animate({"height":"200px"},2000);
+					$("#para").animate({"width":"100px"});
+					$("#para").animate({"height":"100px"});
+					$("#para").animate({"borderRadius":"50px","top":"300px","left":"300px"});
+					
+				});
+				
+			});
+			
+		</script>
+		
+		<button>Click Here</button>
+		
+		<p id="para"> Hai </p>
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

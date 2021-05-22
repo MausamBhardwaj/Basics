@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>Sample</title>
+		<style>
+			table{
+			background:#f9e9c0;
+			padding:50px;
+			border-radius:10px;
+			}
+			
+			.lab1{font-family:Tahoma;color:brown;font-size:13px;}
+			
+			input[type="text"],select
+			{
+				outline:0px;
+				font-size:12px;
+				padding:2px;
+				border:1px solid skyblue;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+	
+	
+	<form action="new.php" method="post" name="reg" align="center">
+	
+	<table align="center" border="1px" cellspacing="10px">
+		<tr>
+			<td class="lab1"> <label for="fname">First Name</label></td>
+			<td> </td>
+			<td> <input type="text" id="fname" name="fname" placeholder="Enter First Name"/></td>
+		</tr>
+		
+		<tr>
+			<td class="lab1"> Gender </td>
+			<td> </td>
+			<td> 
+				<input type="radio" id="genm" name="gen" value="m"/> Male
+				<input type="radio" id="genf" name="gen" value="f"/> Female
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="lab1"> <label for="email">Email</label></td>
+			<td> </td>
+			<td> <input type="text" id="email" name="email" placeholder="Enter Email ID"/></td>
+			
+		</tr>
+		
+		<tr>
+			<td class="lab1"> <label for="city">City</label></td>
+			<td> </td>
+			<td> 
+				<select id="city" name="city">
+			<option value="">Select City</option>
+			<option value="bnglr">Bangalore</option>
+			<option value="mys">Mysore</option>
+			<option value="mum" selected >Mumbai</option>
+			<option value="chn">Chennai</option>
+			<option value="dlh">Delhi</option>
+		</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="lab1"> <label for="pan">PAN</label></td>
+			<td> </td>
+			<td> <input type="text" id="pan" name="pan" placeholder="Enter PAN"/></td>
+		</tr>
+		
+		<tr align="center">
+			<td colspan="3"> 
+				<input type="submit" id="sub" name="sub" value="Register"/>
+				<input type="reset" id="res" name="res" value="Clear"/>
+			</td>
+		</tr>
+		
+	</table>
+	
+	</form>
+	
+		
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	</body>
+</html>

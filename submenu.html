@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Sample</title>
+		<style>
+			ul{margin:0px;padding:0px;}
+			
+			ul li{
+			list-style-type:none;
+			float:left;
+			position:relative;
+			
+			background:skyblue;
+			margin:1px;
+			width:100px;
+			}
+			
+			ul li a{text-decoration:none;color:black;}
+			
+			ul li ul{display:none;}
+			
+			ul li:hover ul{display:block;position:absolute;}
+			
+			ul li:hover{background:orange;}
+			ul li ul li:hover{background:brown;}
+			
+		</style>
+	</head>
+	<body>
+	
+	<ul>
+		<li> <a href="#">Home</a> </li>
+		<li> <a href="#">About</a> </li>
+		<li> <a href="#">Service</a> </li>
+		<li> <a href="#">Client</a> 
+		<ul>
+			<li onclick="show()"><a href="#">ABC</a></li>
+			<li><a href="#">254123</a></li>
+			<li><a href="#">XYZ</a></li>
+			<li><a href="#">dhfgds</a></li>
+		</ul>
+		</li>
+		<li> <a href="#">Contact</a> </li>
+	</ul>
+	
+	<script>
+		function show()
+		{
+			var x=confirm("Are you sure?");
+		}
+	</script>
+	
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin nunc eget dignissim semper. Suspendisse rhoncus venenatis aliquam. Etiam eleifend ligula eget laoreet auctor. Donec consequat facilisis libero eu ornare. Praesent ultricies porta eleifend. Proin vel sem blandit, tincidunt risus aliquet, egestas est. Vivamus aliquet dolor a porta lobortis. Nam nec ex maximus, luctus lectus in, commodo elit. Morbi feugiat erat libero, sed scelerisque magna lobortis vel. Aliquam pulvinar felis et lacus ornare varius. Morbi facilisis tortor at est tincidunt, ac viverra metus scelerisque. Aenean vitae purus quis tortor placerat tempor sed id sapien. Fusce imperdiet ornare ullamcorper. Pellentesque lorem nulla, porttitor eget auctor vel, pellentesque vel erat. Curabitur in orci euismod, posuere dolor nec, dictum ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras sodales blandit tellus quis malesuada. Vivamus fringilla dictum neque, ut luctus felis viverra luctus. Aliquam ornare nibh sit amet quam efficitur, a aliquam urna elementum. Nam tempus consequat tellus, consequat vestibulum erat egestas nec. Curabitur consectetur iaculis aliquet.
+	</p>
+		
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	</body>
+</html>

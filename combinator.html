@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Sample</title>
+		<style>
+		
+		/*	p{color:red} */
+		/*	div p{color:red;} */
+		
+		/*	div > p{color:red;} */
+		
+		/*	div + p{color:red;} */
+		
+		/*	div ~ p{color:red;} */
+		
+		/*	p:hover{color:red;} */
+		
+		/*	p:first-child{background:red;} */
+		/*	p:last-child{background:red;} */
+		
+		/*	::selection{background:brown;color:white;}
+			p::selection{background:brown;color:white;}
+			*/
+			
+			
+			/*
+			h1::after{
+			content:"Read More";
+			background:red;
+			font-size:12px;
+			}
+			*/
+			
+			/*
+			h1::before{
+			content:"Note";
+			background:red;
+			font-size:12px;
+			}
+			*/
+			
+			p{color:black;}
+			:not(p){color:red;}
+			
+			
+		</style>
+	</head>
+	<body>
+		
+		<h1>Welcome</h1>
+		
+		<p>Hello <i>Outside</i> paragraph. another <i>Italic</i></p>
+		<p>Hello Outside paragraph</p>
+		
+		<div>
+			<p>Hello Para</p>
+			<p>Hello Para</p>
+			<span> <p>Hello Span Para</p>
+			
+			</span>
+			
+			<span> <p>Hello Span Para</p></span>
+		</div>
+		
+		<p>Hello Outside paragraph</p>
+		<p>Hello Outside paragraph</p>
+		<p>Hello Outside paragraph</p>
+		<p>Hello Outside paragraph</p>
+		
+	</body>
+</html>
